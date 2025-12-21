@@ -1,0 +1,19 @@
+baseURL: "https://example.com/"
+languageCode: "ja"
+title: "旅行ブログ"
+theme: "hugo-PaperMod"
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+menu:
+  main:
+    - identifier: posts
+      name: 記事
+      url: /posts/
+      weight: 10
