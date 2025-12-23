@@ -1,15 +1,24 @@
-baseURL: "https://example.com/"
+baseURL: "https://kamotake.com/"
 languageCode: "ja"
-title: "旅行ブログ"
+title: "かもたけ"
 theme: "hugo-PaperMod"
 
+canonifyURLs: true
+
 params:
-  defaultTheme: auto
+  defaultTheme: dark
+  disableThemeToggle: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+
+sitemap:
+  changefreq: weekly
+  priority: 0.5
+  filename: sitemap.xml
+
 
 menu:
   main:
@@ -17,3 +26,8 @@ menu:
       name: 記事
       url: /posts/
       weight: 10
+    - identifier: profile
+      name: プロフィール
+      url: /profile/
+      weight: 20
+
