@@ -18,6 +18,8 @@ params:
 
   customHeadHTML: |
     <meta name="google-site-verification" content="D8mTU1e6pvMEHn-1s-IITN5999ooK8ACoxIG-Cf-OlU" />
+  customHeadHTML: |
+    <meta name="TEST-META" content="it-works">
 
 sitemap:
   changefreq: weekly
