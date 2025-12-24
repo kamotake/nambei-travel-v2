@@ -16,9 +16,8 @@ params:
   ShowCodeCopyButtons: true
   env: production
 
-  meta:
-    - name: google-site-verification
-      content: "D8mTU1e6pvMEHn-1s-IITN5999ooK8ACoxIG-Cf-OlU"
+  customHeadHTML: |
+    <meta name="google-site-verification" content="D8mTU1e6pvMEHn-1s-IITN5999ooK8ACoxIG-Cf-OlU" />
 
 sitemap:
   changefreq: weekly
