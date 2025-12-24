@@ -6,6 +6,7 @@ theme: "hugo-PaperMod"
 canonifyURLs: true
 
 params:
+  env: production
   defaultTheme: dark
   disableThemeToggle: false
   ShowReadingTime: true
