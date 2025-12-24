@@ -7,12 +7,15 @@ canonifyURLs: true
 
 params:
   defaultTheme: dark
-  disableThemeToggle: true
+  disableThemeToggle: false
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  meta:
+    - name: google-site-verification
+      content: "D8mTU1e6pvMEHn-1s-IITN5999ooK8ACoxIG-Cf-OlU"
 
 sitemap:
   changefreq: weekly
