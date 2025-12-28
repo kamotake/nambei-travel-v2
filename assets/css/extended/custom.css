@@ -1,0 +1,11 @@
+/* トップページの記事カードのサムネイルを統一 */
+.post-entry .entry-cover {
+    max-height: 180px; /* 好みで調整（150〜220pxくらいが無難） */
+    overflow: hidden;
+}
+
+.post-entry .entry-cover img {
+    width: 100%;
+    height: 180px;     /* ↑と同じ値にする */
+    object-fit: cover; /* 縦横比を保ちつつトリミング */
+}

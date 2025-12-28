@@ -1,31 +1,42 @@
 baseURL: "https://kamotake.com/"
 canonifyURLs: true
-languageCode: "ja"
+languageCode: "ja-JP"
+defaultContentLanguage: "ja"
 title: "かもたけ"
 theme: "hugo-PaperMod"
 
 canonifyURLs: true
+enableGitInfo: true
 
 params:
   defaultTheme: dark
   disableThemeToggle: false
-  ShowReadingTime: true
+  ShowReadingTime: true # 各記事の読み終わるまでの時間を表記するかどうか
   ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: true # 各記事の階層関係を表示するかどうか
   ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true # RSSボタンの表示
+  ShowSearch: true
+  ShowRelatedContent: true
+  ShowLastMod: true
+  Showtoc: true # table of content
+  tocopen: false
+  disableScrollToTop: false # 最上部へのスクロールボタン
   env: production
 
   customHeadHTML: |
     <meta name="google-site-verification" content="D8mTU1e6pvMEHn-1s-IITN5999ooK8ACoxIG-Cf-OlU" />
-  customHeadHTML: |
-    <meta name="TEST-META" content="it-works">
 
 sitemap:
   changefreq: weekly
   priority: 0.5
   filename: sitemap.xml
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 menu:
   main:
@@ -37,4 +48,9 @@ menu:
       name: プロフィール
       url: /profile/
       weight: 20
+
+# for search
+# https://fusejs.il/api/options.html
+fuseOpts: # searchに関する設定
+  isCaseSensitive: false # 大文字小文字を区別するか
 
