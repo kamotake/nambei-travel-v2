@@ -17,7 +17,7 @@
   z-index: 1000;
 }
 .post-content figcaption {
-  font-weight: normal;
-  font-size: 0.9em;
-  color: #666;
+  font-weight: 300;
+  font-size: 0.5em;
+  color: #535353;
 }
