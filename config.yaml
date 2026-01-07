@@ -38,6 +38,10 @@ markup:
     renderer:
       unsafe: true
 
+imaging:
+  formats:
+    - webp
+
 menu:
   main:
     - identifier: posts

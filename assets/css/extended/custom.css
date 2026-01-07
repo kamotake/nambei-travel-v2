@@ -9,3 +9,10 @@
     height: 180px;     /* ↑と同じ値にする */
     object-fit: cover; /* 縦横比を保ちつつトリミング */
 }
+
+/* ヘッダーをスクロール固定 */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}

@@ -2,7 +2,8 @@
 title: '南米旅行のはじめに'
 date: 2025-12-14T17:54:57+09:00
 draft: false
-lastmod:
+tags: [南米,ブラジル,アルゼンチン,チリ,コロンビア,ボリビア,ペルー]
+categories: [海外旅行,南米]
 cover:
   image : "IMG20240217211516.jpg"
   alt : ""
