@@ -16,3 +16,8 @@
   top: 0;
   z-index: 1000;
 }
+.post-content figcaption {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #666;
+}
