@@ -21,3 +21,7 @@
   font-size: 0.2em;
   color: #1f1f1f;
 }
+
+body {
+  outline: 5px solid red;
+}
