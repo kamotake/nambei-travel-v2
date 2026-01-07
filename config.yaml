@@ -23,6 +23,7 @@ params:
   Showtoc: true # table of content
   tocopen: false
   disableScrollToTop: false # 最上部へのスクロールボタン
+  disableImageZoom: true # 画像拡大できなくなる
   env: production
 
   customHeadHTML: |
